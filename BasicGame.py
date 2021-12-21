@@ -1,1 +1,9 @@
-Hey = "hello world"
+from time import sleep
+from random import randint
+
+PlayerOnePoints = []
+PlayerTwoPoints = []
+PlayerThreePoints = []
+PlayerFourPoints = []
+
+
