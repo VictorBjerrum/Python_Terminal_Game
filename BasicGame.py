@@ -371,10 +371,11 @@ print("Væddeløbet starter nu:")
 print("""
                         """)
 print("-----------------------------------------------------")
-
+print("""
+                        """)
 
 while HjertePoints != 6 and RuderPoints != 6 and SparPoints != 6 and KloverPoints != 6:
-    RandomNumber = [randint(1,52)]
+    RandomNumber = [50]
     for number in RandomNumber:
         if 39 <= number <= 52:
             HjertePoints += 1
@@ -614,6 +615,7 @@ if VinderEt == SpillerEtNavn:
                                 print("""
         
         """)
+                                break
                         continue
                 except ValueError:
                         print("Du skal vælge et tal")
@@ -665,11 +667,7 @@ if VinderTo == SpillerToNavn:
                                 print("""
         
         """)
-                        else:
-                                sleep(2)
-                                print("""
-        
-        """)
+                                break
                         continue
                 except ValueError:
                         print("Du skal vælge et tal")
@@ -721,6 +719,7 @@ if VinderTre == SpillerTreNavn:
                                 print("""
         
         """)
+                                break
                         continue
                 except ValueError:
                         print("Du skal vælge et tal")
@@ -773,6 +772,7 @@ if VinderFire == SpillerFireNavn:
                                 print("""
         
         """)
+                                break
                         continue
                 except ValueError:
                         print("Du skal vælge et tal")
